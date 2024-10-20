@@ -34,7 +34,7 @@ nav .logo img {
 }
 
 nav .logo h1 {
-    font-size: 1.1rem;
+    font-size: 1.9rem;
     background: linear-gradient(to right, #b927fc 0%, #2c64fc 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -53,7 +53,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #000;
-    font-size: 95%;
+    font-size: 120%;
     font-weight: 400;
     padding: 4px 8px;
     border-radius: 5px;
