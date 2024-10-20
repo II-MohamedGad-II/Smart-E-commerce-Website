@@ -24,6 +24,7 @@ nav {
 
 nav .logo {
     display: flex;
+    cursor: pointer;
     align-items: center;
 }
 
