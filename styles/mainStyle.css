@@ -1,0 +1,26 @@
+.head .nav .models .dropdown{
+    display:none;
+}
+.head .nav .models:hover .dropdown{
+    display: block;
+    position: absolute;
+    width: 215px;
+    box-shadow: 4px 4px 10px 6px #31363f;
+    border-radius: 20px;
+    background-color: #3c3d37;
+    left: 0px;
+}
+.head .nav .models .dropdown a{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    width: 99%;
+    height: 45px;
+}
+.head .nav .models .dropdown a:hover {
+    background-color: #2A2D2E;
+    box-shadow: 4px 4px 10px 6px #31363f;
+    transform: scale(1.05);
+}
