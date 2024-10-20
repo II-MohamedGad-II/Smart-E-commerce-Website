@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/mainStyle.css">
     <link rel="stylesheet" type="text/css" target="_blank" href="./styles/nav.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/darkmode.css" />
     <title>E-commerce</title>
 </head>
 <body>
     <nav>
         <div class="logo">
             <!-- <img src="assets/Logo64x64.png" alt="logo" /> -->
-            <h1>MLSA</h1>
+            <h1 class="main-title">MLSA</h1>
         </div>
-        <ul>
+        <ul class="main-nav-buttons">
             <li>
-                <a href="#">Home</a>
+                <a href="#" class="home-nav">Home</a>
             </li>
             <li>
                 <a href="#">Services</a>
@@ -27,10 +28,8 @@
                 <a href="#">Contact Us</a>
             </li>
         </ul>
-        <!-- <div class="dark-mode">
-            <button class="dark">Dark</button>
-            <button class="white">White</button>
-        </div> -->
+    <a href=""><button class="bn632-hover bn24" id="darkMode">Dark</button></a>
+    <a href=""><button class="bn633-hover bn25" id="whiteMode">white</button></a>
         <div class="hamburger">
             <span class="line"></span>
             <span class="line"></span>
@@ -54,5 +53,6 @@
         </ul>
     </div>
     <script src="./js/nav.js"></script>
+    <script src="./js/darkMode.js"></script>
 </body>
 </html>
