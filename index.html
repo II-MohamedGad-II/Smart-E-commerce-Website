@@ -6,30 +6,31 @@
     <link rel="stylesheet" href="./styles/mainStyle.css">
     <link rel="stylesheet" type="text/css" target="_blank" href="./styles/nav.css" />
     <link rel="stylesheet" type="text/css" href="./styles/darkmode.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>E-commerce</title>
 </head>
 <body>
     <nav>
         <div class="logo">
             <!-- <img src="assets/Logo64x64.png" alt="logo" /> -->
-            <h1 class="main-title">MLSA</h1>
+            <h1 class="main-title" data-aos="fade-right" data-aos-duration="1000">MLSA</h1>
         </div>
         <ul class="main-nav-buttons">
+                    <li>
+                        <a href="#" class="home-nav" data-aos="fade-left" data-aos-duration="2000">Category</a>
+                    </li>
             <li>
-                <a href="#" class="home-nav">Home</a>
+                <a href="#" data-aos="fade-left" data-aos-duration="2000">Services</a>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="#" data-aos="fade-left" data-aos-duration="2000">N\A</a>
             </li>
             <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Contact Us</a>
+                <a href="#" data-aos="fade-left" data-aos-duration="2000">Contact Us</a>
             </li>
         </ul>
-    <a href=""><button class="bn632-hover bn24" id="darkMode">Dark</button></a>
-    <a href=""><button class="bn633-hover bn25" id="whiteMode">white</button></a>
+    <a href=""><button class="bn632-hover bn24" id="darkMode" data-aos="fade-left" data-aos-duration="1000">sign-up</button></a>
+    <a href=""><button class="bn633-hover bn25" id="whiteMode" data-aos="fade-left" data-aos-duration="1000">Log in</button></a>
         <div class="hamburger">
             <span class="line"></span>
             <span class="line"></span>
@@ -54,5 +55,9 @@
     </div>
     <script src="./js/nav.js"></script>
     <script src="./js/darkMode.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+</script>
 </body>
 </html>
