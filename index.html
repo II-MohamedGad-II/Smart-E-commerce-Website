@@ -1,71 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/mainStyle.css">
-    <link rel="stylesheet" type="text/css" target="_blank" href="./styles/nav.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/darkmode.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>E-commerce</title>
-</head>
-<body>
-    <nav>
-        <div class="logo">
-            <!-- <img src="assets/Logo64x64.png" alt="logo" /> -->
-            <h1 class="main-title" data-aos="fade-right" data-aos-duration="1000" href="./index.html">MLSA</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" type="text/css" target="_blank" href="style/nav.css" />
+        <link rel="stylesheet" type="text/css" href="style/darkmode.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>E-commerce</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/3543404fbb.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="head h-[100vh]">
+            <nav>
+                <div class="logo">
+                    <!-- <img src="assets/Logo64x64.png" alt="logo" /> -->
+                    <h1 class="main-title" data-aos="fade-right" data-aos-duration="1000" href="./index.html">MLSA</h1>
+                </div>
+                <ul class="main-nav-buttons">
+                    <div class="cat" id="cat">
+                        <a data-aos="fade-left" data-aos-duration="2000" class="drop">Category</a>
+                        <div class="dropdown" id="dpdw">
+                            <a href="#" class="model-1" data-index="0">LINK</a>
+                            <a href="#" class="model-2" data-index="1">LINK</a>
+                            <a href="#" class="model-3" data-index="2">LINK</a>
+                            <a href="#" class="model-4" data-index="3">LINK</a>
+                            <a href="#" class="model-5" data-index="4">LINK</a>
+                            <a href="#" class="model-6" data-index="5">LINK</a>
+                        </div>
+                    </div>
+                    <li>
+                        <a href="#" data-aos="fade-left" data-aos-duration="2000">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" data-aos="fade-left" data-aos-duration="2000">N\A</a>
+                    </li>
+                    <li>
+                        <a href="#" data-aos="fade-left" data-aos-duration="2000">Contact Us</a>
+                    </li>
+                </ul>
+            <a href="./signup.html"><button class="bn632-hover bn24" id="darkMode" data-aos="fade-left" data-aos-duration="1000">Sign-Up</button></a>
+            <a href="./login.html"><button class="bn633-hover bn25" id="whiteMode" data-aos="fade-left" data-aos-duration="1000">Log in</button></a>
+                <div class="hamburger">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </div>
+            </nav>
+            <div class="menubar">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <ul class="main-nav-buttons">
-            <div class="cat" id="cat">
-                <a data-aos="fade-left" data-aos-duration="2000" class="drop">Category</a>
-                <div class="dropdown" id="dpdw">
-                    <a href="#" class="model-1" data-index="0">LINK</a>
-                    <a href="#" class="model-2" data-index="1">LINK</a>
-                    <a href="#" class="model-3" data-index="2">LINK</a>
-                    <a href="#" class="model-4" data-index="3">LINK</a>
-                    <a href="#" class="model-5" data-index="4">LINK</a>
-                    <a href="#" class="model-6" data-index="5">LINK</a>
+        <div class="hero h-[100vh]">
+        </div>
+        <div class="foot">
+            <div class="footer1 flex flex-row flex-wrap w-full h-[100px] bg-[#cbc9c9] h-[225px]">
+                <div class="flex flex-col text-center m-[50px] mx-[45px]">
+                    <h1 class="text-center text-[22px] text-black">
+                        Contact Us
+                    </h1>
+                    <a href="#" class="flex flex-row">
+                        <img src="images/pic21.png" alt="">
+                        <p class="text-[18px] text-[#2c64fc] hover:underline">guesswho@me.com</p>
+                    </a>
+                    <a href="#" class="flex flex-row">
+                        <img src="images/pic22.png" alt="" class="w-[25px]">
+                        <p class="flex text-[18px] text-[#b927fc] hover:underline">+20 236 733 567 25</p>
+                    </a>
+                </div>
+                <div class="flex flex-col text-center my-[50px] ml-[175px] mr-[50px]">
+                    <h1 class="text-center text-[22px] text-black">
+                        Links
+                    </h1>
+                    <a href="#" class="text-[18px] text-[#b927fc] hover:underline">Home</a>
+                    <a href="#" class="text-[18px] text-[#b927fc] hover:underline">About</a>
+                    <a href="#" class="text-[18px] text-[#b927fc] hover:underline">Shop</a>
+                </div>
+                <div class="flex flex-col text-center m-[50px] mx-[75px]">
+                    <h1 class="text-center text-[22px] text-black">
+                        Help
+                    </h1>
+                    <a href="#" class="text-[18px] text-[#2c64fc] hover:underline">Contact</a>
+                    <a href="#" class="text-[18px] text-[#2c64fc] hover:underline">Service</a>
+                    <a href="#" class="text-[18px] text-[#2c64fc] hover:underline">Privacy</a>
+                </div>
+                <div class="third flex flex-col text-center my-[17px] mx-[115px] w-[247px]">
+                    <h1 class="title text-center text-[25px] text-black font-[800] font-Akaya-Telivigala mb-[35px]">
+                        MLSA E-Commerce
+                    </h1>
+                    <div class="flex flex-row justify-around">
+                        <img src="images/pic17.png" alt="" class="w-[35px]">
+                        <img src="images/pic18.png" alt="" class="w-[35px]">
+                        <img src="images/pic19.png" alt="" class="w-[35px]">
+                        <img src="images/pic20.png" alt="" class="w-[35px]">
+                    </div>
                 </div>
             </div>
-            <li>
-                <a href="#" data-aos="fade-left" data-aos-duration="2000">Services</a>
-            </li>
-            <li>
-                <a href="#" data-aos="fade-left" data-aos-duration="2000">N\A</a>
-            </li>
-            <li>
-                <a href="#" data-aos="fade-left" data-aos-duration="2000">Contact Us</a>
-            </li>
-        </ul>
-    <a href="./signup.html"><button class="bn632-hover bn24" id="darkMode" data-aos="fade-left" data-aos-duration="1000">Sign-Up</button></a>
-    <a href="./login.html"><button class="bn633-hover bn25" id="whiteMode" data-aos="fade-left" data-aos-duration="1000">Log in</button></a>
-        <div class="hamburger">
-            <span class="line"></span>
-            <span class="line"></span>
-            <span class="line"></span>
+            <div class="footer2 bg-[#998f8f]">
+                <p class="text-center text-white text-[20px] font-[800] p-[11px]">CopyRight &copy; All Rights Reserved Created By <span class="organize text-[#B2989E] font-[800]">MLSA</span></p>
+            </div>
         </div>
-    </nav>
-    <div class="menubar">
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <li>
-                <a href="#">Contact Us</a>
-            </li>
-        </ul>
-    </div>
-    <script src="./js/nav.js"></script>
-    <script src="./js/darkMode.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-    AOS.init();
-</script>
-</body>
+        <script src="./js/nav.js"></script>
+        <script src="./js/darkMode.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>
